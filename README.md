@@ -108,6 +108,12 @@ You can extend this standalone dashboard by:
 - Loading clinic, employee, payroll, or appointment data from a database or API
 - Breaking the large form into reusable user controls
 
+## Current Limitations
+
+- The project is a UI-focused sample and does not include backend services or persistent storage.
+- Most values displayed in the dashboard are static placeholders defined in the form resources and designer.
+- Some event handlers are intentionally minimal and should be expanded before using the project in production.
+
 ## Troubleshooting
 
 - If the project fails to build because `Guna.UI2.WinForms` is missing, run `dotnet restore` or restore packages through Visual Studio.
