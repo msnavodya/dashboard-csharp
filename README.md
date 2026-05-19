@@ -1,10 +1,10 @@
 # Pulzz Dashboard
 
-Pulzz Dashboard is a standalone Windows Forms sample that packages the dashboard screen from the Pulzz application into a small, runnable desktop project. It is intended for UI review, form editing, and quick local testing without bringing along the rest of the original multi-page system.
+Pulzz Dashboard is a standalone Windows Forms sample based on a first-year project. It packages the dashboard screen from the Pulzz application into a small, runnable desktop project. It is intended for UI review, form editing, and quick local testing without including the rest of the original multi-page system.
 
 ## Overview
 
-This repository contains a single WinForms application targeting `.NET 8` on Windows. The form uses `Guna.UI2.WinForms` controls for styling and includes the generated designer and embedded resources needed to open and run the dashboard as its own project.
+This repository contains a single WinForms application targeting `.NET 8` on Windows. The form uses `Guna.UI2.WinForms` controls for styling and includes the generated designer files and embedded resources needed to open and run the dashboard as a standalone project.
 
 The current dashboard is a static UI prototype. It focuses on layout and presentation rather than live data loading or backend integration.
 
@@ -19,7 +19,7 @@ The current dashboard is a static UI prototype. It focuses on layout and present
 - `Program.cs`
   Application entry point that launches the dashboard form.
 - `DashboardOnly.csproj`
-  Standalone project file targeting `net8.0-windows`.
+  Standalone project file that targets `net8.0-windows`.
 - `Properties/AssemblyInfo.cs`
   Assembly metadata for the project.
 
@@ -30,7 +30,7 @@ The dashboard currently includes these main visual areas:
 - Clinic information panel
 - Approval request and upcoming appointment summary cards
 - Today's appointment section with sample treatment entries
-- Employee/profile details panel
+- Employee profile details panel
 - Leave management inputs
 - Attendance summary
 - Payroll summary
@@ -47,7 +47,7 @@ Most values shown in the form are sample or placeholder values stored directly i
 
 ## Prerequisites
 
-Before running the project, make sure you have:
+Before running the project, make sure you have the following:
 
 - Windows
 - .NET 8 SDK
@@ -56,13 +56,13 @@ Before running the project, make sure you have:
 
 ## Getting Started
 
-### Open In Visual Studio
+### Open in Visual Studio
 
 1. Open `DashboardOnly.csproj`.
 2. Allow NuGet packages to restore if prompted.
 3. Build and run the project.
 
-### Run From The Command Line
+### Run from the Command Line
 
 ```powershell
 dotnet restore
@@ -84,7 +84,7 @@ Dashboard/
 `-- README.md
 ```
 
-## Notes For Development
+## Notes for Development
 
 - The repository contains only the dashboard screen, not the full Pulzz application.
 - The form currently has minimal code-behind logic and several empty event handlers.
