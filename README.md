@@ -75,6 +75,8 @@ dotnet build
 dotnet run --project DashboardOnly.csproj
 ```
 
+If package restore is blocked on a restricted network, Visual Studio or `dotnet` may show a NuGet source warning until internet access to `https://api.nuget.org/v3/index.json` is available again.
+
 ## Project Structure
 
 ```text
