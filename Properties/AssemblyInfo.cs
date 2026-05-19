@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 [assembly: AssemblyTitle("Pulzz Dashboard Only")]
 [assembly: AssemblyDescription("Standalone Windows Forms dashboard extracted from the Pulzz project.")]
@@ -12,6 +13,8 @@ using System.Runtime.InteropServices;
 
 [assembly: ComVisible(false)]
 [assembly: Guid("29798ad8-30b0-4ae5-b5ff-9fa7fd4f7cfc")]
+[assembly: NeutralResourcesLanguage("en")]
 
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyInformationalVersion("1.0.0")]
