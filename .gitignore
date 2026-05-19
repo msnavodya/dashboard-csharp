@@ -1,0 +1,11 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+.dotnet/
+.nuget/
+packages/
+*.user
+*.suo
+*.cache
+*.pdb
+*.exe
