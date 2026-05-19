@@ -2,6 +2,7 @@
 [Oo]bj/
 .vs/
 .dotnet/
+.dotnet-cli/
 .nuget/
 packages/
 *.user
