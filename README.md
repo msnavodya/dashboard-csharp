@@ -8,6 +8,11 @@ This repository contains a single WinForms application targeting `.NET 8` on Win
 
 The current dashboard is a static UI prototype. It focuses on layout and presentation rather than live data loading or backend integration.
 
+## Repository
+
+- GitHub: `https://github.com/msnavodya/dashboard-csharp`
+- Default branch: `main`
+
 ## What Is Included
 
 - `Dashboard.cs`
